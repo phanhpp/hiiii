@@ -115,12 +115,6 @@ class LoginForm extends Component {
         );
     }
 }
-const styles = {
-    imageStyle:{
-        height: 300,
-        width: null,
-        flex: 1
-    }
-}
+
 
 export default LoginForm;
