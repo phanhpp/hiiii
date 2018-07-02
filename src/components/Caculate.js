@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View,Text,Image} from 'react-native';
+import {View,Text} from 'react-native';
 import {Button, Card, CardSection,Input} from "./common/"
 
 
@@ -45,19 +45,6 @@ class LoginForm extends Component {
          });
     }
     
-
-    
-
-
-    // showAlert = () => {
-    //     this.setState({check : !this.state.check})
-    //  }
-    //  showInfo = () => {
-    //     if(this.state.check){
-    //          return this.caculateSum()
-             
-    //     }
-    // }
     render() { 
         return(
          <Card>
